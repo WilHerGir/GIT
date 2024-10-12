@@ -1,0 +1,10 @@
+// Ejemplo de uso
+calcularTriangulo(6, 8);
+
+function calcularRectangulo(base, altura) {
+    let area = base * altura;
+    let perimetro = 2 * (base * altura);
+
+    console.log(`Área del Retangulo: ${area}`);
+    console.log(`Perímetro del Retangulo: ${perimetro}`);
+}
