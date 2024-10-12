@@ -17,3 +17,14 @@ function calcularTriangulo(base, altura) {
     console.log(`Área del triángulo: ${area}`);
     console.log(`Perímetro del triángulo: ${perimetro}`);
 }
+
+// Ejemplo de uso
+calcularCuadrado(5);
+
+function calcularCirculo(radio) {
+    let area = Math.PI * radio ** 2;
+    let perimetro = 2 * Math.PI * radio;
+
+    console.log(`Área del círculo: ${area}`);
+    console.log(`Perímetro del círculo: ${perimetro}`);
+}
