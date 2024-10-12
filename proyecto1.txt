@@ -1,0 +1,19 @@
+/*Funciones:
+1. Desarrollar un programa que permita calcular el área o perímetro de algunas figuras planas según la siguiente tabla:
+    Tabla 1
+    Área y perímetro de figuras planas:
+     
+    Triangulo; Perimetro: a+b+c  -  área: b*h / 2
+    Rectangulo; Perimetro; 2*(b+a) - área; b*a
+    Cuadrado;  Perimetro;  4 * a  -  área; a^2
+    Circulo; Perimetro;  2*PI*r^2 - área; PI * r^2 */
+               
+
+function calcularTriangulo(base, altura) {
+
+    let area = (base * altura) / 2;
+    let perimetro = base + altura + Math.sqrt(base ** 2 + altura ** 2)
+
+    console.log(`Área del triángulo: ${area}`);
+    console.log(`Perímetro del triángulo: ${perimetro}`);
+}
